@@ -140,6 +140,9 @@ There is currently no synchronization, encryption layer beyond platform defaults
 
 ## Installation
 
+
+You can also download the apk binary for easy installation [Here](https://github.com/medlav/residency_portfolio/releases/tag/v0.1.0)
+
 Clone the public repository:
 
 ```bash
