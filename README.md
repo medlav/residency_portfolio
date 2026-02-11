@@ -23,12 +23,10 @@ This is not production-grade software and should not be used as an official repo
 
 ---
 
-<table>
-  <tr>
-    <td width="60%" valign="top">
+
 
 ## Context and Scope
-
+<img src="docs/screenshots/homepage_filled.png" align="right" width="180" alt="Homepage Screenshot">
 Italian medical residency programs require structured documentation of:
 
 * Clinical procedures
@@ -42,13 +40,7 @@ This application aims to provide a simple, structured, and locally stored system
 
 It is not affiliated with any university, residency school, or governmental institution.
 
-   </td>
-   <td width="40%" valign="center">
-     <img src="docs\screenshots\homepage_filled.png" width="180" alt="Homepage Screenshot">
-   </td>
-  </tr>
-</table>
-
+<br clear="right"/>
 ---
 
 ## Normative Context (Italy)
@@ -67,14 +59,10 @@ This application is designed to align with Italian postgraduate medical training
 
 ---
 
-<table>
-  <tr>
-    <td width="40%" valign="top">
-      <img src="docs\screenshots\info_dark.png" width="180" alt="Info Page Screenshot">
-    </td>
-    <td width="60%" valign="top">
+
 
 ## Project Status
+<img src="docs/screenshots/info_dark.png" align="right" width="180" alt="Info Page Screenshot">
 
 * **Development Stage:** Pre-Alpha / Early Alpha
 * **Platform:** Android (Flutter)
@@ -89,53 +77,36 @@ Expect:
 
 This is a hobby project developed in spare time.
 
-   </td>
-  </tr>
-</table>
+<br clear="right"/>
 
 ---
 
-<table>
-  <tr>
-    <td width="60%" valign="center">
 
 ### Portfolio Entry Management
+
+<img src="docs/screenshots/activity_form_filled.png" align="right" width="180" alt="Portfolio Entry Form">
 
 * Create, edit, and delete portfolio entries
 * Define custom categories aligned with specialty requirements
 * Flexible quantitative tracking (counts, hours, credits)
 * Structured metadata fields (institution, departments, notes)
 
-   </td>
-   <td width="40%" valign="center">
-     <img src="docs\screenshots\activity_form_filled.png" width="180"alt="Portfolio Entry Form">
-   </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-     <td width="40%" valign="center">
-     <img src="docs\screenshots\ongoing_filled_it_dark.png" width="180" alt="Portfolio Screenshot">
-   </td>
-    <td width="60%" valign="center">
+<br clear="right"/>
 
 ### Temporal Tracking
+
+<img src="docs/screenshots/ongoing_filled_it_dark.png" align="right" width="180" alt="Portfolio Screenshot">
 
 * Support for past, ongoing, and planned activities
 * Start and optional end dates
 * ISO 8601 date format handling
 
-   </td>
+<br clear="right"/>
 
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="60%" valign="center">
 
 ### Local-First Design
+
+<img src="docs/screenshots/backup_dark.png" align="right" width="180" alt="Portfolio Screenshot">
 
 * SQLite database (`sqflite`) for structured data
 * SharedPreferences for profile and configuration
@@ -143,13 +114,7 @@ This is a hobby project developed in spare time.
 
 All data remains stored locally on the user’s device.
 
-   </td>
-   <td width="10%"></td>
-   <td width="30%" valign="center" >
-     <img src="docs\screenshots\backup_dark.png"  width="180" alt="Backup Screenshot">
-   </td>
-  </tr>
-</table>
+<br clear="right"/>
 
 ---
 
