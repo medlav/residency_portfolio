@@ -2,3 +2,9 @@ project:
   output-dir: pages
   render:
     - README.md
+
+website:
+  favicon: assets\icon\dark-icon.png
+
+html:
+  favicon: assets\icon\dark-icon.png

@@ -23,6 +23,10 @@ This is not production-grade software and should not be used as an official repo
 
 ---
 
+<table>
+  <tr>
+    <td width="60%" valign="top">
+
 ## Context and Scope
 
 Italian medical residency programs require structured documentation of:
@@ -37,6 +41,13 @@ Italian medical residency programs require structured documentation of:
 This application aims to provide a simple, structured, and locally stored system for recording such activities.
 
 It is not affiliated with any university, residency school, or governmental institution.
+
+   </td>
+   <td width="40%" valign="center">
+     <img src="docs\screenshots\homepage_filled.png" width="180" alt="Homepage Screenshot">
+   </td>
+  </tr>
+</table>
 
 ---
 
@@ -56,11 +67,18 @@ This application is designed to align with Italian postgraduate medical training
 
 ---
 
+<table>
+  <tr>
+    <td width="40%" valign="top">
+      <img src="docs\screenshots\info_dark.png" width="180" alt="Info Page Screenshot">
+    </td>
+    <td width="60%" valign="top">
+
 ## Project Status
 
-* Development Stage: Pre-Alpha / Early Alpha
-* Platform: Android (Flutter)
-* Stability: Experimental
+* **Development Stage:** Pre-Alpha / Early Alpha
+* **Platform:** Android (Flutter)
+* **Stability:** Experimental
 
 Expect:
 
@@ -71,9 +89,15 @@ Expect:
 
 This is a hobby project developed in spare time.
 
+   </td>
+  </tr>
+</table>
+
 ---
 
-## Core Functionality
+<table>
+  <tr>
+    <td width="60%" valign="center">
 
 ### Portfolio Entry Management
 
@@ -82,22 +106,50 @@ This is a hobby project developed in spare time.
 * Flexible quantitative tracking (counts, hours, credits)
 * Structured metadata fields (institution, departments, notes)
 
+   </td>
+   <td width="40%" valign="center">
+     <img src="docs\screenshots\activity_form_filled.png" width="180"alt="Portfolio Entry Form">
+   </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+     <td width="40%" valign="center">
+     <img src="docs\screenshots\ongoing_filled_it_dark.png" width="180" alt="Portfolio Screenshot">
+   </td>
+    <td width="60%" valign="center">
+
 ### Temporal Tracking
 
 * Support for past, ongoing, and planned activities
 * Start and optional end dates
 * ISO 8601 date format handling
 
+   </td>
+
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="60%" valign="center">
+
 ### Local-First Design
 
 * SQLite database (`sqflite`) for structured data
 * SharedPreferences for profile and configuration
-* No cloud services
-* No analytics
-* No tracking
-* No advertising
+* No cloud services | No analytics | No tracking
 
 All data remains stored locally on the user’s device.
+
+   </td>
+   <td width="10%"></td>
+   <td width="30%" valign="center" >
+     <img src="docs\screenshots\backup_dark.png"  width="180" alt="Backup Screenshot">
+   </td>
+  </tr>
+</table>
 
 ---
 
@@ -125,8 +177,8 @@ There is currently no synchronization, encryption layer beyond platform defaults
 Clone the public repository:
 
 ```bash
-git clone https://github.com/medlav/residency-portfolio-manager.git
-cd residency-portfolio-manager
+git clone https://github.com/medlav/residency-portfolio.git
+cd residency-portfolio
 ```
 
 Install dependencies:
