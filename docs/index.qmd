@@ -17,6 +17,10 @@ format:
 
 # Visual Documentation
 A complete walkthrough of the R Portfolio interface.
+
+**API Reference and docs:**
+
+[View API Docs](./api/index.html) | [GitHub Repository](https://github.com/medlav/residency_portfolio)
 :::
 
 ::: {.marquee-container}
