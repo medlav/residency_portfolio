@@ -10,8 +10,6 @@ format:
 ---
 
 
-
-
 ::: {.hero-section}
 ![](../assets/icon/logo.png){width="160px"}
 
