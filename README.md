@@ -7,6 +7,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows-yellow)
 ![Platform](https://img.shields.io/badge/Platform-Web-yellow)
 ![Platform](https://img.shields.io/badge/Platform-iOS-yellow)
+
 ![License](https://img.shields.io/badge/License-BSD%203--Clause-blue)
 ![Status](https://img.shields.io/badge/Development-Alpha-red)
 
