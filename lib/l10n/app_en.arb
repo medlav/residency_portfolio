@@ -1,0 +1,380 @@
+{
+  "@@locale": "en",
+  "appName": "R Portfolio",
+  "appTitle": "Residency Portfolio",
+  "welcomeMessage": "Welcome {username}",
+  "@welcomeMessage": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "progressSubtitle": "Track your progress and activities.",
+  "loadingData": "Loading data...",
+  "statProcedures": "Procedures",
+  "statExams": "Exams",
+  "statCredits": "Credits",
+  "drawerTooltip": "Open Drawer",
+  "drawerProfile": "Profile",
+  "drawerPortfolio": "Portfolio",
+  "drawerActivities": "Activities",
+  "drawerCurriculum": "Curriculum",
+  "drawerSettings": "Settings",
+  "drawerInfo": "Info",
+  "drawerVersion": "Version {version}",
+  "@drawerVersion": {
+    "placeholders": {
+      "version": {}
+    }
+  },
+  "infoScreenTitle": "About This App",
+  "infoSectionTitlePurpose": "Purpose",
+  "infoSectionDescription": "This free, open-source application is designed exclusively to assist medical residents in digitally logging, tracking, and structuring their activities, procedures, and learning goals for their professional residency portfolio.",
+  "infoSectionTitleLicense": "License & Disclaimer",
+  "disclaimerTitle": "BSD-3 Clause Simplified Disclaimer",
+  "disclaimerBody1": "This software is provided 'as is,' is free to use, modify, and distribute. We are NOT liable for any damages or losses related to its use. The authors and contributors provide NO warranty, express or implied, regarding its functionality, accuracy, or fitness for a particular purpose.",
+  "disclaimerBody2": "This software utilizes a local database, and its reliability cannot be guaranteed. The user assumes sole responsibility for all data entered and the maintenance of profile settings. In the event of data loss, corruption, or profile setting malfunctions, the authors and contributors shall not be held liable.",
+  "infoTileSourceCode": "Source Code (GitHub)",
+  "infoTilePrivacyPolicy": "Privacy Policy",
+  "buttonHomepage": "Homepage",
+  "buttonHomepageTooltip": "Go to Homepage",
+  "buttonViewActivities": "View all the Activities",
+  "buttonLogActivity": "Log new Activity",
+  "settingsButtonTooltip": "Settings",
+  "settingsTitle": "Settings",
+  "settingsProfileSubtitle": "View & edit your personal details",
+  "settingsProfilePlaceholderName": "Unregistered User",
+  "settingsSectionPortfolio": "Portfolio Management",
+  "settingsPortfolioTitle": "Portfolio",
+  "settingsPortfolioSubtitle": "Manage Portfolio",
+  "settingsCategoriesTitle": "Categories",
+  "settingsCategoriesSubtitle": "Manage activity categories (e.g., Exam, Procedure)",
+  "settingsSpecialtiesTitle": "Specialties",
+  "settingsSpecialtiesSubtitle": "Check the portfolio required for every Specialty (e.g., Cardiology, Radiology)",
+  "settingsBackupDataTitle": "Backup Data",
+  "settingsBackupDataSubtitle": "Export portfolio data to a file (JSON, CSV)",
+  "settingsSectionAppearance": "Appearance",
+  "settingsDarkModeTitle": "Dark Mode",
+  "settingsDarkModeSubtitle": "Toggle application theme",
+  "settingsLanguageTitle": "Change Language",
+  "languageChangeConfirmTitle": "Confirm Language Change to {languageName}?",
+  "@languageChangeConfirmTitle": {
+    "placeholders": {
+      "languageName": {}
+    }
+  },
+  "languageChangeConfirmMessage": "Changing the language requires the app to restart. Continue?",
+  "languageChangeConfirmButton": "Confirm",
+  "buttonCancel": "Cancel",
+  "restartingApp": "Restarting app...",
+  "settingsSectionAbout": "About",
+  "settingsAppVersionTitle": "App Version",
+  "settingsExportFormatDialogTitle": "Select Export Format",
+  "settingsExportJsonTitle": "Export as JSON",
+  "settingsExportJsonSubtitle": "Perfect for programmatic use.",
+  "settingsExportCsvTitle": "Export as CSV",
+  "settingsExportCsvSubtitle": "Easy to view in Excel/Sheets.",
+  "settingsExportPdfTitle": "Export as PDF",
+  "settingsExportPdfSubtitle": "For printing and formal submission.",
+  "settingsExportSnackBarMessage": "Starting export of data to {format}...",
+  "@settingsExportSnackBarMessage": {
+    "placeholders": {
+      "format": {
+        "type": "String"
+      }
+    }
+  },
+  "searchPlaceholder": "Search activities, modules, or competences",
+  "portfolioTabCurrentCurriculum": "Current Curriculum",
+  "portfolioTabResidencyPortfolio": "Residency Portfolio",
+  "portfolioTabOngoingActivities": "Ongoing Activities",
+  "portfolioTabToDoProgrammed": "Programmed Activities",
+  "portfolioContentOngoing": "Ongoing Activities and Assessments",
+  "portfolioContentTodo": "To Do / Programmed",
+  "portfolioTitle": "Residency Curriculum",
+  "portfolioSectionSelectSpecialty": "Select Residency Specialty:",
+  "portfolioLabelSpecialty": "Residency Track",
+  "portfolioNoCategoryError": "No Category Data",
+  "portfolioNoSpecialtyData": "No Specialty Data",
+  "portfolioSectionCurriculum": "Minimum Curriculum for {specialty}:",
+  "@portfolioSectionCurriculum": {
+    "placeholders": {
+      "specialty": {
+        "type": "String"
+      }
+    }
+  },
+  "portfolioNoCurriculumActivities": "No minimum curriculum activities defined for {specialty}.",
+  "@portfolioNoCurriculumActivities": {
+    "placeholders": {
+      "specialty": {
+        "type": "String"
+      }
+    }
+  },
+  "portfolioTableID": "ID",
+  "portfolioTableActivityDescription": "Activity Description",
+  "portfolioTableMinUnits": "Min Units",
+  "portfolioTableRequiredDept": "Required Departments",
+  "portfolioTableLog": "Log",
+  "portfolioLogActivityTooltip": "Log Activity",
+  "portfolioLogActivitySnackbar": "Logging activity: {activity}",
+  "@portfolioLogActivitySnackbar": {
+    "placeholders": {
+      "activity": {
+        "type": "String"
+      }
+    }
+  },
+  "portfolioFullDescription": "Full Description:",
+  "portfolioAllRequiredDepartments": "All Required Departments:",
+  "profileTitle": "Edit Profile",
+  "profileLabelFullName": "Full Name",
+  "profileLabelEmail": "Email Address",
+  "profileLabelSpecialty": "Specialty (e.g., Surgery, Peds)",
+  "profileLabelResidencyYear": "Residency Year (e.g., PGY-3, R-2)",
+  "profileLabelInstitution": "Institution/Program Name",
+  "profileValidationNameRequired": "Name is required",
+  "profileValidationEmailInvalid": "Enter a valid email",
+  "profileValidationSpecialtyRequired": "Specialty is required",
+  "profileValidationYearRequired": "Year is required",
+  "profileValidationInstitutionRequired": "Institution is required",
+  "profileButtonSaveChanges": "Save Changes",
+  "profileSaveSuccess": "Profile updated successfully",
+  "profileSaveError": "Error saving profile: ",
+  "profileImagePickerTBD": "Image picker functionality TBD.",
+  "activityListTitle": "Activities Tracker",
+  "activityListTotalCredits": "Total Credits/Hours Logged:",
+  "activityListEmptyState": "No activities logged yet. Tap the + to begin!",
+  "activityListNewActivityButton": "New Activity",
+  "activityListDeleteSnackbar": "{activityName} deleted.",
+  "@activityListDeleteSnackbar": {
+    "placeholders": {
+      "activityName": {
+        "type": "String"
+      }
+    }
+  },
+  "activityListCreditsHoursLabel": "Credits/Hrs",
+  "activityListCategory": "Category: {category}",
+  "@activityListCategory": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "activityListDate": "Date: {date}",
+  "@activityListDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "activityListNotes": "Notes: {notes}",
+  "@activityListNotes": {
+    "placeholders": {
+      "notes": {
+        "type": "String"
+      }
+    }
+  },
+  "activityListNotesPlaceholder": "N/A",
+  "activityFormTitleEdit": "Edit Activity",
+  "activityFormTitleAdd": "Add New Activity",
+  "activityFormLabelName": "Activity Name (e.g. Intravenous injection)",
+  "activityFormValidationNameRequired": "Please enter the activity name.",
+  "activityFormLabelCategory": "Category/Activity Area",
+  "activityFormLabelCreditsHours": "Credits / Hours Logged",
+  "activityFormValidationCreditsInvalid": "Please enter a valid number.",
+  "activityFormValidationCreditsPositive": "The value must be positive.",
+  "activityFormLabelDate": "Activity Date",
+  "activityFormLabelNotes": "Notes/Reflections (e.g., supervising physician, context)",
+  "activityFormButtonSave": "Save Changes",
+  "activityFormButtonAdd": "Add Activity",
+  "activityFormSuccessAdd": "Activity added successfully!",
+  "activityFormSuccessUpdate": "Activity updated successfully!",
+  "activityFormErrorSave": "Save error: ",
+  "activityFormCategory1": "Activity I: Clinical Area (Intensive Care)",
+  "activityFormCategory2": "Activity II: Diagnostic Area",
+  "activityFormCategory3": "Activity III: Research & Management Area",
+  "activityFormCategory4": "Activity IV: Teaching & Communication Area",
+  "activityFormCategory5": "Activity V: Occupational Medicine",
+  "activityFormCategoryOther": "Other",
+  "specialtySearchHeader": "Search Activities for {specialty}:",
+  "@specialtySearchHeader": {
+    "placeholders": {
+      "specialty": {
+        "type": "String"
+      }
+    }
+  },
+  "specialtySelectActivityHint": "Search portfolio activity",
+  "specialtySearchHint": "e.g., \"Physical examination\" or \"Appendectomy\"",
+  "specialtyDetailHeader": "Selected Activity Metadata:",
+  "specialtyDetailPesoLabel": "Peso (Min Units)",
+  "specialtyDetailDepartmentLabel": "Required Department/Sector",
+  "specialtyDetailButtonSave": "Save Activity",
+  "specialtyDetailButtonSaveSuccess": "Activity '{activity}' managed for {specialty}!",
+  "@specialtyDetailButtonSaveSuccess": {
+    "placeholders": {
+      "activity": {
+        "type": "String"
+      },
+      "specialty": {
+        "type": "String"
+      }
+    }
+  },
+  "errorLoadingCategories": "Failed to load categories: {error}",
+  "@errorLoadingCategories": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noCategoriesAvailable": "No categories found. Use the '+' button to add one.",
+  "categoryDescriptionLabel": "Description:",
+  "noDescriptionProvided": "No description provided.",
+  "edit": "Edit",
+  "delete": "Delete",
+  "activityFormLabelDateEnd": "End Date (Optional)",
+  "activityFormLabelDateEndEmpty": "Select end date",
+  "activityFormButtonClearDate": "Clear Date",
+  "activityListDateRange": "Date: {dateRange}",
+  "@activityListDateRange": {
+    "placeholders": {
+      "dateRange": {}
+    }
+  },
+  "deleteEntrySuccess": "Entry deleted successfully.",
+  "deleteEntryError": "Failed to delete entry.",
+  "buttonDeleteActivity": "Delete Activity",
+  "dialogDeleteConfirmationTitle": "Confirm Deletion",
+  "dialogDeleteConfirmationContent": "Are you sure you want to permanently delete this entry?",
+  "dialogSaveConfirmationTitle": "Confirm New Entry",
+  "dialogSaveConfirmationContent": "Are you sure you want to save this new activity?",
+  "dialogUpdateConfirmationTitle": "Confirm Changes",
+  "dialogUpdateConfirmationContent": "Are you sure you want to apply these changes to the existing entry?",
+  "buttonConfirmSave": "Save",
+  "buttonConfirmUpdate": "Update",
+  "settingsExportDbTitle": "Raw Database (.db)",
+  "settingsExportDbSubtitle": "Export the raw SQLite database file for technical backup or migration.",
+  "activityFormLabelInstitution": "Institution Name",
+  "activityFormValidationInstitutionRequired": "Institution name is required.",
+  "activityFormLabelDepartments": "Department(s)",
+  "categoryDescriptionTitle": "Category Description",
+  "categoryDescriptionEmpty": "No description available for this category.",
+  "buttonClose": "Close",
+  "activityFormCategoryInfoTooltip": "View category description",
+  "portfolioContentCurriculumDashboard": "Dashboard view of completed activities and progress will go here.",
+  "portfolioContentUpcomingEmpty": "No programmed activities found. Plan your future tasks!",
+  "portfolioContentOngoingEmpty": "No activities are currently marked as ongoing.",
+  "noResultsFound": "No Results Found",
+  "noData": "No Data",
+  "duplicateEntryTooltip": "Duplicate Entry",
+  "categoryFormTitleAdd": "Add Category",
+  "categoryFormTitleEdit": "Edit Category",
+  "categoryFormLabelName": "Category Name",
+  "categoryFormLabelAmountType": "Amount Type",
+  "categoryFormLabelMinAmount": "Min Required Amount",
+  "categoryFormLabelRequiredDepts": "Required Departments (comma separated)",
+  "categoryFormLabelDescription": "Description",
+  "categoryFormValidationNameRequired": "Enter a name",
+  "categoryFormButtonSave": "Save Category",
+  "categoryFormButtonUpdate": "Update Category",
+  "categoryFormSuccessAdd": "Category added",
+  "categoryFormSuccessUpdate": "Category updated",
+  "categoryLabelId": "ID",
+  "categoryLabelUnit": "Unit",
+  "categoryDeleteConfirmation": "Are you sure you want to delete '{name}'?\nPress Delete if you're sure or press Cancel to go back.",
+  "@categoryDeleteConfirmation": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "amountTypeNumber": "number",
+  "amountTypeHours": "hours",
+  "amountTypeCredits": "credits",
+  "categoryResetTitle": "Reset Categories?",
+  "categoryResetMessage": "This will delete all custom categories and restore the defaults. This action cannot be undone.",
+  "categoryResetButton": "Reset Everything",
+  "categoryResetTooltip": "Reset to Defaults",
+  "menuTooltip": "Show menu",
+  "infoTitle": "Information",
+  "activityFormSuccessDuplicate": "Entry duplicated. You are now editing the copy.",
+  "privacyPolicyTitle": "Privacy Policy",
+  "privacyHeader": "Data Privacy & Security",
+  "privacyLastUpdated": "Last updated: February 2026",
+  "privacyVersion": "Residency Portfolio v{version}",
+  "@privacyVersion": {
+    "placeholders": {
+      "version": {}
+    }
+  },
+  "privacySection1Title": "1. Data Storage",
+  "privacySection1Content": "All data entered into the Residency Portfolio, including your activities, credits, and institution names, is stored locally on your device. We do not use external cloud servers to host your portfolio entries.",
+  "privacySection2Title": "2. Personal Information",
+  "privacySection2Content": "Your name and email address are used solely for the purpose of personalizing your experience and generating your Curriculum Vitae. This information remains within the application.",
+  "privacySection3Title": "3. PDF Generation",
+  "privacySection3Content": "When you export your curriculum to PDF, the document is generated locally. No data is transmitted to our servers during this process.",
+  "privacySection4Title": "4. Third-Party Access",
+  "privacySection4Content": "We do not sell, trade, or otherwise transfer your residency data to outside parties. Your data is your professional property.",
+  "privacySection5Title": "5. Security",
+  "privacySection5Content": "Since data is stored locally, the security of your information depends on the security of your mobile device. We recommend using biometric or passcode locks on your device.",
+  "exportPdf": "Export PDF",
+  "curriculumHeaderTitle": "Professional Curriculum",
+  "curriculumHeaderSubtitle": "Consolidated Experience Summary",
+  "curriculumSummaryStats": "{total} Total Credits Across {count} Activities",
+  "@curriculumSummaryStats": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "curriculumAggregatedSessions": "{count, plural, =1{Aggregated from 1 session} other{Aggregated from {count} sessions}}",
+  "@curriculumAggregatedSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteImageTitle": "Delete Profile Picture",
+  "deleteImageConfirmation": "Are you sure you want to remove your profile picture?",
+  "cancel": "Cancel",
+  "pdfFooterGeneratedOn": "Generated via Residency Portfolio App on {date}",
+  "@pdfFooterGeneratedOn": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "specialtyChangeLockedTitle": "Specialty Change Locked",
+  "specialtyChangeLockedContent": "You have existing activities in your portfolio. To change your specialty, you must first delete all current activities to ensure data consistency.",
+  "buttonOk": "OK",
+  "activityFormLabelMinRequirement": "Minimum Required Credits/Hours",
+  "activityFormValidationMinRequired": "The minimum requirement for this category is",
+  "importSuccess": "Database restored successfully!",
+  "importCancelled": "Import cancelled",
+  "importError": "Import failed: {error}",
+  "@importError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "webNotSupported": "This feature is not available on the web version.",
+  "importInvalid": "The selected file is not a valid Portfolio backup.",
+  "importConfirmTitle": "Overwrite Data?",
+  "importConfirmMessage": "This will delete all current entries and replace them with the backup. Continue?"
+}
