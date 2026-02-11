@@ -218,7 +218,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get portfolioTabCurrentCurriculum => 'Curriculum Corrente';
 
   @override
-  String get portfolioTabResidencyPortfolio => 'Portfolio di Specializzazione';
+  String get portfolioTabResidencyPortfolio => 'Portfolio SSM';
 
   @override
   String get portfolioTabOngoingActivities => 'Attività in Corso';
@@ -233,7 +233,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get portfolioContentTodo => 'Da Fare / Programmate';
 
   @override
-  String get portfolioTitle => 'Portfolio di Specializzazione';
+  String get portfolioTitle => 'Portfolio SSM';
 
   @override
   String get portfolioSectionSelectSpecialty =>
