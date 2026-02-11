@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the kOfficialMedicinaLegaleActivities constant from the residency_portfolio library, for the Dart programming language.">
+  <title>kOfficialMedicinaLegaleActivities constant - residency_portfolio library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+  
+</head>
+
+<body data-base-href="../" data-using-base-href="false" class="light-theme">
+<div id="overlay-under-drawer"></div>
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">residency_portfolio</a></li>
+    <li><a href="../residency_portfolio/">residency_portfolio.dart</a></li>
+    <li class="self-crumb">kOfficialMedicinaLegaleActivities constant</li>
+  </ol>
+  <div class="self-name">kOfficialMedicinaLegaleActivities</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <button class="toggle" id="theme-button" title="Toggle between light and dark mode" aria-label="Light and dark mode toggle">
+    <span id="dark-theme-button" class="material-symbols-outlined" aria-hidden="true">
+      dark_mode
+    </span>
+    <span id="light-theme-button" class="material-symbols-outlined" aria-hidden="true">
+      light_mode
+    </span>
+  </button>
+</header>
+<main>
+  <div
+      id="dartdoc-main-content"
+      class="main-content"
+      data-above-sidebar="residency_portfolio&#47;residency_portfolio-library-sidebar.html"
+      data-below-sidebar="">
+      <div>
+<h1><span class="kind-top-level-property">kOfficialMedicinaLegaleActivities</span> top-level constant 
+ 
+</h1></div>
+
+        <section class="multi-line-signature">
+          
+          <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span>&gt;</span>
+          const <span class="name ">kOfficialMedicinaLegaleActivities</span>
+          
+
+        </section>
+        
+
+        
+<section class="summary source-code" id="source">
+  <h2><span>Implementation</span></h2>
+  <pre class="language-dart"><code class="language-dart">const List&lt;Map&lt;String, dynamic&gt;&gt; kOfficialMedicinaLegaleActivities = [
+  &#47;&#47; --- A. Tanatologia e Autopsia ---
+  {
+    &quot;id&quot;: 1,
+    &quot;name&quot;: &quot;Sopralluoghi e constatazioni di decesso&quot;,
+    &quot;description&quot;:
+        &quot;Partecipazione a sopralluoghi e&#47;o constatazioni di decesso, come da previsione del regolamento di polizia mortuaria o da disposizione, diretta o delegata, dell’autorità giudiziaria.&quot;,
+    &quot;min_required_amount&quot;: 5,
+    &quot;required_departments&quot;: [&quot;Tanatologia&#47;Autorità Giudiziaria&quot;],
+  },
+  {
+    &quot;id&quot;: 2,
+    &quot;name&quot;: &quot;Visite necroscopiche e certificazione&quot;,
+    &quot;description&quot;:
+        &quot;Aver partecipato a visite necroscopiche con relativa stesura di certificazione presso un obitorio comunale ovvero in ambito ospedaliero e&#47;o territoriale.&quot;,
+    &quot;min_required_amount&quot;: 50,
+    &quot;required_departments&quot;: [&quot;Obitorio&#47;Servizio Necroscopico&quot;],
+  },
+  {
+    &quot;id&quot;: 3,
+    &quot;name&quot;: &quot;Autopsie giudiziarie ed esami esterni&quot;,
+    &quot;description&quot;:
+        &quot;Aver partecipato a accertamenti necroscopici completati dalla sezione cadaverica, eseguendone interamente e in prima persona (esame esterno, sezione e determinazione della&#47;e causa&#47;e di morte) almeno **20**.&quot;,
+    &quot;min_required_amount&quot;: 100,
+    &quot;required_departments&quot;: [&quot;Sala Autopsie&quot;],
+  },
+  {
+    &quot;id&quot;: 4,
+    &quot;name&quot;: &quot;Partecipazione a esumazioni&quot;,
+    &quot;description&quot;: &quot;Aver partecipato ad esumazione di cadavere.&quot;,
+    &quot;min_required_amount&quot;: 2,
+    &quot;required_departments&quot;: [&quot;Tanatologia&quot;],
+  },
+
+  &#47;&#47; --- B. Consulenza e Valutazione del Danno (Quantificate) ---
+  {
+    &quot;id&quot;: 5,
+    &quot;name&quot;: &quot;Accertamenti di interesse penalistico&quot;,
+    &quot;description&quot;:
+        &quot;Aver partecipato ad accertamenti medico-legali di interesse **penalistico**.&quot;,
+    &quot;min_required_amount&quot;: 30,
+    &quot;required_departments&quot;: [&quot;Sezione Penalistica&quot;],
+  },
+  {
+    &quot;id&quot;: 6,
+    &quot;name&quot;: &quot;Responsabilità medica e ambito civile&quot;,
+    &quot;description&quot;:
+        &quot;Aver partecipato ad accertamenti medico-legali di interesse **civilistico**, di cui almeno **30 in ambito di responsabilità professionale medica**.&quot;,
+    &quot;min_required_amount&quot;: 60,
+    &quot;required_departments&quot;: [&quot;Sezione Civilistica&#47;Responsabilità Medica&quot;],
+  },
+  {
+    &quot;id&quot;: 7,
+    &quot;name&quot;: &quot;Infortunistica e assicurativa privata&quot;,
+    &quot;description&quot;:
+        &quot;Aver partecipato ad accertamenti medico-legali di interesse **assicurativo privato**.&quot;,
+    &quot;min_required_amount&quot;: 30,
+    &quot;required_departments&quot;: [&quot;Sezione Assicurativa Privata&quot;],
+  },
+  {
+    &quot;id&quot;: 8,
+    &quot;name&quot;: &quot;Previdenza e assicurativa sociale&quot;,
+    &quot;description&quot;:
+        &quot;Aver partecipato ad accertamenti medico-legali di interesse **assicurativo sociale**.&quot;,
+    &quot;min_required_amount&quot;: 30,
+    &quot;required_departments&quot;: [&quot;Sezione Assicurativa Sociale&quot;],
+  },
+
+  &#47;&#47; --- C. Attività Giudiziarie e Forensi ---
+  {
+    &quot;id&quot;: 9,
+    &quot;name&quot;: &quot;Partecipazione a udienze giudiziarie&quot;,
+    &quot;description&quot;: &quot;Aver partecipato ad udienze penali, civili o del lavoro.&quot;,
+    &quot;min_required_amount&quot;: 10,
+    &quot;required_departments&quot;: [&quot;Tribunale&#47;Udienze&quot;],
+  },
+  {
+    &quot;id&quot;: 10,
+    &quot;name&quot;: &quot;Criminologia e psicopatologia forense&quot;,
+    &quot;description&quot;:
+        &quot;Aver partecipato ad accertamenti e valutazioni su casistica **criminologica o di psicopatologia forense**.&quot;,
+    &quot;min_required_amount&quot;: 10,
+    &quot;required_departments&quot;: [&quot;Psicopatologia Forense&#47;Criminologia&quot;],
+  },
+  {
+    &quot;id&quot;: 11,
+    &quot;name&quot;: &quot;Mediazione e conciliazione (ADR)&quot;,
+    &quot;description&quot;:
+        &quot;Aver partecipato a procedure di **mediazione e&#47;o conciliazione in tema di colpa medica**.&quot;,
+    &quot;min_required_amount&quot;: 3,
+    &quot;required_departments&quot;: [&quot;Risoluzione Controversie (ADR)&quot;],
+  },
+  {
+    &quot;id&quot;: 12,
+    &quot;name&quot;: &quot;Istruttoria e sedute di Comitato Etico&quot;,
+    &quot;description&quot;:
+        &quot;Aver partecipato a sedute di **comitato etico**, seguendone i lavori sin dalla fase istruttoria.&quot;,
+    &quot;min_required_amount&quot;: 5,
+    &quot;required_departments&quot;: [&quot;Comitato Etico&quot;],
+  },
+
+  &#47;&#47; --- D. Indagini Tecniche e Laboratorio ---
+  {
+    &quot;id&quot;: 13,
+    &quot;name&quot;: &quot;Interpretazione imaging forense&quot;,
+    &quot;description&quot;:
+        &quot;Aver partecipato all’interpretazione di indagini strumentali di natura **radiologica, ecografica, elettrodiagnostica**, etc.&quot;,
+    &quot;min_required_amount&quot;: 80,
+    &quot;required_departments&quot;: [&quot;Diagnostica per Immagini&#47;Strumentale&quot;],
+  },
+  {
+    &quot;id&quot;: 14,
+    &quot;name&quot;: &quot;Indagini istopatologiche forensi&quot;,
+    &quot;description&quot;: &quot;Aver partecipato a **indagini istopatologiche**.&quot;,
+    &quot;min_required_amount&quot;: 100,
+    &quot;required_departments&quot;: [&quot;Anatomia Patologica Forense&quot;],
+  },
+  {
+    &quot;id&quot;: 15,
+    &quot;name&quot;: &quot;Identificazione personale e resti ossei&quot;,
+    &quot;description&quot;:
+        &quot;Aver partecipato a indagini in tema di **identificazione personale**.&quot;,
+    &quot;min_required_amount&quot;: 5,
+    &quot;required_departments&quot;: [&quot;Identificazione Forense&quot;],
+  },
+  {
+    &quot;id&quot;: 16,
+    &quot;name&quot;: &quot;Indagini di tossicologia forense&quot;,
+    &quot;description&quot;: &quot;Aver partecipato a **indagini tossicologiche**.&quot;,
+    &quot;min_required_amount&quot;: 10,
+    &quot;required_departments&quot;: [&quot;Laboratorio di Tossicologia Forense&quot;],
+  },
+  {
+    &quot;id&quot;: 17,
+    &quot;name&quot;: &quot;Indagini di genetica forense&quot;,
+    &quot;description&quot;: &quot;Aver partecipato a **indagini genetiche**.&quot;,
+    &quot;min_required_amount&quot;: 10,
+    &quot;required_departments&quot;: [&quot;Laboratorio di Genetica Forense&quot;],
+  },
+
+  &#47;&#47; --- E. Frequenze in Istituzioni e Servizi (Qualitative) ---
+  {
+    &quot;id&quot;: 18,
+    &quot;name&quot;: &quot;Frequenza istituzionale INPS&quot;,
+    &quot;description&quot;:
+        &quot;Aver frequentato, per almeno **2 mesi**, una sede **I.N.P.S**.&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;Frequenza INPS&quot;],
+  },
+  {
+    &quot;id&quot;: 19,
+    &quot;name&quot;: &quot;Frequenza istituzionale INAIL&quot;,
+    &quot;description&quot;:
+        &quot;Aver frequentato, per almeno **2 mesi**, una sede **I.N.A.I.L**.&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;Frequenza INAIL&quot;],
+  },
+  {
+    &quot;id&quot;: 20,
+    &quot;name&quot;: &quot;Frequenza Medicina Legale territoriale&quot;,
+    &quot;description&quot;:
+        &quot;Aver partecipato per almeno **2 mesi** alle attività di un **servizio di Medicina Legale in un’Azienda Sanitaria Locale**, prendendo parte a tutte le attività svolte di medicina legale e medicina sociale.&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;Frequenza Servizio Medicina Legale ASL&quot;],
+  },
+  {
+    &quot;id&quot;: 21,
+    &quot;name&quot;: &quot;Risk management e medicina legale ospedaliera&quot;,
+    &quot;description&quot;:
+        &quot;Aver frequentato per almeno **4 mesi un servizio di Medicina Legale ospedaliera**, prendendo parte ad almeno **50 consulenze e&#47;o accertamenti di Medicina Legale** (es. accertamento della morte a scopo di trapianto; IVG; TSO; consenso informato) e partecipando a tutte le fasi di **gestione e definizione dei casi di responsabilità sanitaria** (compresi comitati di gestione e valutazione sinistri) nonché alle attività di gestione del rischio clinico, accreditamento istituzionale e certificazione della qualità.&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;Frequenza Medicina Legale Ospedaliera&quot;],
+  },
+
+  &#47;&#47; --- F. Altre Attività Caratterizzanti (Qualitative) ---
+  {
+    &quot;id&quot;: 22,
+    &quot;name&quot;: &quot;Approfondimenti in scienze forensi&quot;,
+    &quot;description&quot;:
+        &quot;Altre attività caratterizzanti dello specialista in formazione utili all’acquisizione di specifiche ed avanzate conoscenze nell’ambito della tipologia di Medicina Legale sono nell’area di: patologia medico-legale e tanatologia; rischio clinico; bioetica e deontologia medica; medicina e chirurgia applicata a fattispecie di diritto; laboratorio medico-legale; tossicologia forense e biochimica forense; genetica forense; radiologia forense; criminologia e psicopatologia forense; entomologia forense; valutazione del danno alla persona; attività ambulatoriale specialistica; medicina sociale; frequenza in centri e&#47;o laboratori ad elevata competenza specifica sia nazionali sia internazionali.&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [
+      &quot;Aree di Competenza Avanzata&#47;Formazione Specialistica&quot;,
+    ],
+  },
+];</code></pre>
+</section>
+
+
+
+  </div> <!-- /.main-content -->
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+    <li><a href="../index.html">residency_portfolio</a></li>
+    <li><a href="../residency_portfolio/">residency_portfolio</a></li>
+    <li class="self-crumb">kOfficialMedicinaLegaleActivities constant</li>
+</ol>
+
+    <h5>residency_portfolio library</h5>
+    <div id="dartdoc-sidebar-left-content"></div>
+  </div><!--/.sidebar-offcanvas-left-->
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+</main>
+<footer>
+  <span class="no-break">
+    residency_portfolio
+      0.1.0+1
+  </span>
+  
+</footer>
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/docs.dart.js"></script>
+
+</body>
+</html>
+

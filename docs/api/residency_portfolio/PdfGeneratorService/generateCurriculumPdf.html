@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the generateCurriculumPdf method from the PdfGeneratorService class, for the Dart programming language.">
+  <title>generateCurriculumPdf method - PdfGeneratorService class - residency_portfolio library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../../static-assets/styles.css?v1">
+  <link rel="icon" href="../../static-assets/favicon.png?v1">
+  
+</head>
+
+<body data-base-href="../../" data-using-base-href="false" class="light-theme">
+<div id="overlay-under-drawer"></div>
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../../index.html">residency_portfolio</a></li>
+    <li><a href="../../residency_portfolio/">residency_portfolio.dart</a></li>
+    <li><a href="../../residency_portfolio/PdfGeneratorService-class.html">PdfGeneratorService</a></li>
+    <li class="self-crumb">generateCurriculumPdf static method</li>
+  </ol>
+  <div class="self-name">generateCurriculumPdf</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <button class="toggle" id="theme-button" title="Toggle between light and dark mode" aria-label="Light and dark mode toggle">
+    <span id="dark-theme-button" class="material-symbols-outlined" aria-hidden="true">
+      dark_mode
+    </span>
+    <span id="light-theme-button" class="material-symbols-outlined" aria-hidden="true">
+      light_mode
+    </span>
+  </button>
+</header>
+<main>
+<div
+    id="dartdoc-main-content"
+    class="main-content"
+    data-above-sidebar="residency_portfolio&#47;PdfGeneratorService-class-sidebar.html"
+    data-below-sidebar="">
+    <div>
+<h1><span class="kind-method">generateCurriculumPdf</span> static method 
+</h1></div>
+
+    <section class="multi-line-signature">
+      
+<span class="returntype"><a href="https://api.flutter.dev/flutter/dart-core/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+<span class="name ">generateCurriculumPdf</span>(<wbr>{<ol class="parameter-list"> <li><span class="parameter" id="generateCurriculumPdf-param-context"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span>, </span></li>
+<li><span class="parameter" id="generateCurriculumPdf-param-data"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../../residency_portfolio/ConsolidatedEntry-class.html">ConsolidatedEntry</a></span>&gt;</span></span>&gt;</span></span> <span class="parameter-name">data</span>, </span></li>
+<li><span class="parameter" id="generateCurriculumPdf-param-name"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">name</span>, </span></li>
+<li><span class="parameter" id="generateCurriculumPdf-param-email"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">email</span>, </span></li>
+<li><span class="parameter" id="generateCurriculumPdf-param-totalCredits"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a></span> <span class="parameter-name">totalCredits</span>, </span></li>
+</ol>})
+
+      
+
+    </section>
+    
+<section class="desc markdown">
+  <p>Generates a PDF document from consolidated residency data and opens the print/save dialog.</p>
+<p>The resulting document includes:</p>
+<ul>
+<li>
+<p>A professional header with user details (<code>name</code> and <code>email</code>).</p>
+</li>
+<li>
+<p>Summary statistics including <code>totalCredits</code> and category counts.</p>
+</li>
+<li>
+<p>Categorized sections based on the <code>data</code> map, each containing a detailed table.</p>
+</li>
+<li>
+<p>A localized footer with the generation timestamp.</p>
+</li>
+<li>
+<p><code>context</code>: The <a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a> required to access localization and theme data.</p>
+</li>
+<li>
+<p><code>data</code>: A map where keys are category names and values are lists of <a href="../../residency_portfolio/ConsolidatedEntry-class.html">ConsolidatedEntry</a> objects.</p>
+</li>
+<li>
+<p><code>name</code>: The full name of the resident to display in the header.</p>
+</li>
+<li>
+<p><code>email</code>: The contact email to display in the header.</p>
+</li>
+<li>
+<p><code>totalCredits</code>: The cumulative sum of all activity amounts across the portfolio.</p>
+</li>
+</ul>
+<p>Returns a <a href="https://api.flutter.dev/flutter/dart-core/Future-class.html">Future</a> that completes once the PDF layout is handed over to the OS printing service.</p>
+</section>
+
+
+    
+<section class="summary source-code" id="source">
+  <h2><span>Implementation</span></h2>
+  <pre class="language-dart"><code class="language-dart">static Future&lt;void&gt; generateCurriculumPdf({
+  required BuildContext context,
+  required Map&lt;String, List&lt;ConsolidatedEntry&gt;&gt; data,
+  required String name,
+  required String email,
+  required double totalCredits,
+}) async {
+  final pdf = pw.Document();
+  final l10n = AppLocalizations.of(context)!;
+  final formattedDate = DateFormat(&#39;dd&#47;MM&#47;yyyy&#39;).format(DateTime.now());
+
+  pdf.addPage(
+    pw.MultiPage(
+      pageFormat: PdfPageFormat.a4,
+      margin: const pw.EdgeInsets.all(32),
+      build: (pw.Context context) {
+        return [
+          &#47;&#47; Header
+          pw.Row(
+            mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
+            children: [
+              pw.Column(
+                crossAxisAlignment: pw.CrossAxisAlignment.start,
+                children: [
+                  pw.Text(
+                    name,
+                    style: pw.TextStyle(
+                      fontSize: 24,
+                      fontWeight: pw.FontWeight.bold,
+                    ),
+                  ),
+                  pw.Text(email, style: const pw.TextStyle(fontSize: 12)),
+                ],
+              ),
+              pw.Column(
+                crossAxisAlignment: pw.CrossAxisAlignment.end,
+                children: [
+                  pw.Text(
+                    l10n.curriculumSummaryStats(
+                      totalCredits.toStringAsFixed(1),
+                      data.length,
+                    ),
+                    style: const pw.TextStyle(fontSize: 10),
+                  ),
+                  pw.Text(
+                    totalCredits.toStringAsFixed(1),
+                    style: pw.TextStyle(
+                      fontSize: 20,
+                      fontWeight: pw.FontWeight.bold,
+                      color: PdfColors.blue900,
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          pw.Divider(thickness: 2, color: PdfColors.grey300),
+          pw.SizedBox(height: 20),
+
+          &#47;&#47; Iterate through categories
+          for (var category in data.entries) ...[
+            pw.Header(
+              level: 1,
+              text: category.key.toUpperCase(),
+              textStyle: pw.TextStyle(
+                fontSize: 14,
+                fontWeight: pw.FontWeight.bold,
+                color: PdfColors.blue700,
+              ),
+              decoration: const pw.BoxDecoration(
+                border: pw.Border(
+                  bottom: pw.BorderSide(color: PdfColors.blue700, width: 1),
+                ),
+              ),
+            ),
+
+            &#47;&#47; Table for items
+            pw.Table(
+              columnWidths: {
+                0: const pw.FixedColumnWidth(80),
+                1: const pw.FlexColumnWidth(),
+                2: const pw.FixedColumnWidth(60),
+              },
+              children: [
+                for (var item in category.value)
+                  pw.TableRow(
+                    children: [
+                      pw.Padding(
+                        padding: const pw.EdgeInsets.symmetric(vertical: 4),
+                        child: pw.Text(
+                          DateFormat(&#39;MMM yyyy&#39;).format(item.period),
+                          style: const pw.TextStyle(fontSize: 10),
+                        ),
+                      ),
+                      pw.Padding(
+                        padding: const pw.EdgeInsets.symmetric(vertical: 4),
+                        child: pw.Column(
+                          crossAxisAlignment: pw.CrossAxisAlignment.start,
+                          children: [
+                            pw.Text(
+                              item.name,
+                              style: pw.TextStyle(
+                                fontWeight: pw.FontWeight.bold,
+                                fontSize: 11,
+                              ),
+                            ),
+                            pw.Text(
+                              item.institution,
+                              style: const pw.TextStyle(
+                                fontSize: 9,
+                                color: PdfColors.grey700,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      pw.Padding(
+                        padding: const pw.EdgeInsets.symmetric(vertical: 4),
+                        child: pw.Text(
+                          item.totalAmount.toStringAsFixed(1),
+                          textAlign: pw.TextAlign.right,
+                          style: pw.TextStyle(fontWeight: pw.FontWeight.bold),
+                        ),
+                      ),
+                    ],
+                  ),
+              ],
+            ),
+            pw.SizedBox(height: 15),
+          ],
+
+          &#47;&#47; Footer
+          pw.Spacer(),
+          pw.Divider(thickness: 0.5),
+          pw.Text(
+            l10n.pdfFooterGeneratedOn(formattedDate),
+            style: const pw.TextStyle(fontSize: 8, color: PdfColors.grey500),
+          ),
+        ];
+      },
+    ),
+  );
+
+  &#47;&#47; Save or Share
+  await Printing.layoutPdf(
+    onLayout: (PdfPageFormat format) async =&gt; pdf.save(),
+  );
+}</code></pre>
+</section>
+
+
+  </div> <!-- /.main-content -->
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+    <li><a href="../../index.html">residency_portfolio</a></li>
+    <li><a href="../../residency_portfolio/">residency_portfolio</a></li>
+    <li><a href="../../residency_portfolio/PdfGeneratorService-class.html">PdfGeneratorService</a></li>
+    <li class="self-crumb">generateCurriculumPdf static method</li>
+</ol>
+
+    <h5>PdfGeneratorService class</h5>
+    <div id="dartdoc-sidebar-left-content"></div>
+  </div><!--/.sidebar-offcanvas-->
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+</div><!--/.sidebar-offcanvas-->
+</main>
+<footer>
+  <span class="no-break">
+    residency_portfolio
+      0.1.0+1
+  </span>
+  
+</footer>
+
+
+<script src="../../static-assets/highlight.pack.js?v1"></script>
+<script src="../../static-assets/docs.dart.js"></script>
+
+</body>
+</html>
+

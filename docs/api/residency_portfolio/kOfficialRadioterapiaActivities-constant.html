@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the kOfficialRadioterapiaActivities constant from the residency_portfolio library, for the Dart programming language.">
+  <title>kOfficialRadioterapiaActivities constant - residency_portfolio library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+  
+</head>
+
+<body data-base-href="../" data-using-base-href="false" class="light-theme">
+<div id="overlay-under-drawer"></div>
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">residency_portfolio</a></li>
+    <li><a href="../residency_portfolio/">residency_portfolio.dart</a></li>
+    <li class="self-crumb">kOfficialRadioterapiaActivities constant</li>
+  </ol>
+  <div class="self-name">kOfficialRadioterapiaActivities</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <button class="toggle" id="theme-button" title="Toggle between light and dark mode" aria-label="Light and dark mode toggle">
+    <span id="dark-theme-button" class="material-symbols-outlined" aria-hidden="true">
+      dark_mode
+    </span>
+    <span id="light-theme-button" class="material-symbols-outlined" aria-hidden="true">
+      light_mode
+    </span>
+  </button>
+</header>
+<main>
+  <div
+      id="dartdoc-main-content"
+      class="main-content"
+      data-above-sidebar="residency_portfolio&#47;residency_portfolio-library-sidebar.html"
+      data-below-sidebar="">
+      <div>
+<h1><span class="kind-top-level-property">kOfficialRadioterapiaActivities</span> top-level constant 
+ 
+</h1></div>
+
+        <section class="multi-line-signature">
+          
+          <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span>&gt;</span>
+          const <span class="name ">kOfficialRadioterapiaActivities</span>
+          
+
+        </section>
+        
+
+        
+<section class="summary source-code" id="source">
+  <h2><span>Implementation</span></h2>
+  <pre class="language-dart"><code class="language-dart">const List&lt;Map&lt;String, dynamic&gt;&gt; kOfficialRadioterapiaActivities = [
+  &#47;&#47; Attività quantificate con un numero minimo (N) - Reparto e DH
+  {
+    &quot;id&quot;: 1,
+    &quot;name&quot;: &quot;Gestione clinica in degenza e Day Hospital&quot;,
+    &quot;description&quot;:
+        &quot;Reparti di degenza: lo specializzando deve seguire l&#39;evoluzione della malattia ed eseguire personalmente i compiti affidatigli in casi clinici relativi a pazienti ricoverati nel reparto di degenza ordinaria e di day-hospital (Inpatient Wards: the specialist must follow the disease evolution and personally perform the assigned tasks in clinical cases related to hospitalized patients)&quot;,
+    &quot;min_required_amount&quot;: 60,
+    &quot;required_departments&quot;: [&quot;Degenza Ordinaria&quot;, &quot;Day Hospital Radioterapico&quot;],
+  },
+
+  &#47;&#47; Attività quantificate con un numero minimo (N) - Brachiterapia
+  {
+    &quot;id&quot;: 2,
+    &quot;name&quot;: &quot;Brachiterapia e radioterapia metabolica&quot;,
+    &quot;description&quot;:
+        &quot;Unità (Reparti) di brachiterapia: lo specializzando deve avere eseguito i compiti affidatigli su pazienti sottoposti a procedure di brachiterapia interstiziale, endocavitaria e radioterapia metabolica (Brachytherapy Units: the specialist must have performed the assigned tasks on patients undergoing interstitial, endocavitary brachytherapy, and metabolic radiotherapy procedures)&quot;,
+    &quot;min_required_amount&quot;: 8,
+    &quot;required_departments&quot;: [&quot;Brachiterapia&quot;, &quot;Radioterapia Metabolica&quot;],
+  },
+
+  &#47;&#47; Attività quantificate con un numero minimo (N) - Trattamento con Fasci Esterni
+  {
+    &quot;id&quot;: 3,
+    &quot;name&quot;: &quot;Trattamenti con fasci esterni (Linac)&quot;,
+    &quot;description&quot;:
+        &quot;Lo specializzando dovrà aver eseguito personalmente l&#39;espletamento dei compiti affidatigli su pazienti trattati con radioterapia con fasci esterni (The specialist must have personally performed the assigned tasks on patients treated with external beam radiotherapy)&quot;,
+    &quot;min_required_amount&quot;: 75,
+    &quot;required_departments&quot;: [&quot;Sala di Trattamento (Acceleratori Lineari)&quot;],
+  },
+  {
+    &quot;id&quot;: 4,
+    &quot;name&quot;: &quot;Follow-up e controllo post-trattamento&quot;,
+    &quot;description&quot;:
+        &quot;Lo specializzando dovrà aver eseguito personalmente l&#39;espletamento dei compiti affidatigli su pazienti già trattati esaminati per controllo con impiego di immagini diagnostiche (The specialist must have personally performed the assigned tasks on previously treated patients examined for follow-up using diagnostic images)&quot;,
+    &quot;min_required_amount&quot;: 75,
+    &quot;required_departments&quot;: [&quot;Ambulatorio Follow-up&quot;],
+  },
+
+  &#47;&#47; Attività quantificate con un numero minimo (N) - Simulazione e Imaging
+  {
+    &quot;id&quot;: 5,
+    &quot;name&quot;: &quot;Simulazione e centraggio (TC&#47;Sim)&quot;,
+    &quot;description&quot;:
+        &quot;Lo specializzando dovrà aver eseguito personalmente l&#39;espletamento dei compiti affidatigli su pazienti studiati con TC simulatore e se ritenuto necessario con simulatore (The specialist must have personally performed the assigned tasks on patients studied with CT simulator and, if deemed necessary, with conventional simulator)&quot;,
+    &quot;min_required_amount&quot;: 75,
+    &quot;required_departments&quot;: [&quot;TC Simulatore&#47;Simulatore Convenzionale&quot;],
+  },
+  {
+    &quot;id&quot;: 6,
+    &quot;name&quot;: &quot;Definizione volumi su imaging multimodale&quot;,
+    &quot;description&quot;:
+        &quot;Lo specializzando dovrà aver eseguito personalmente l&#39;espletamento dei compiti affidatigli su pazienti con volumi di irradiazione definiti mediante TC, RM, PET o SPECT (The specialist must have personally performed the assigned tasks on patients with irradiation volumes defined using CT, MRI, PET, or SPECT)&quot;,
+    &quot;min_required_amount&quot;: 20,
+    &quot;required_departments&quot;: [&quot;Fusioni Immagini&#47;Definizione Volumi&quot;],
+  },
+
+  &#47;&#47; Attività quantificate con un numero minimo (N) - Pianificazione
+  {
+    &quot;id&quot;: 7,
+    &quot;name&quot;: &quot;Pianificazione con sistemi TPS&quot;,
+    &quot;description&quot;:
+        &quot;Lo specializzando dovrà aver eseguito personalmente l&#39;espletamento dei compiti affidatigli su studi di piani di trattamento individuali con TPS (Treatment Planning Systems) (The specialist must have personally performed the assigned tasks on studies of individual treatment plans with TPS)&quot;,
+    &quot;min_required_amount&quot;: 50,
+    &quot;required_departments&quot;: [&quot;Sala Piani di Trattamento (Dosimetria)&quot;],
+  },
+  {
+    &quot;id&quot;: 8,
+    &quot;name&quot;: &quot;Modelli di schermatura personalizzata&quot;,
+    &quot;description&quot;:
+        &quot;Lo specializzando dovrà aver eseguito personalmente l&#39;espletamento dei compiti affidatigli su modelli di schermatura sagomata personalizzata (The specialist must have personally performed the assigned tasks on personalized shaped shielding models)&quot;,
+    &quot;min_required_amount&quot;: 5,
+    &quot;required_departments&quot;: [&quot;Officina Meccanica&#47;Laboratorio Dosimetria&quot;],
+  },
+
+  &#47;&#47; Attività quantificate con un numero minimo (N) - Tecniche Speciali e Pazienti Complessivi
+  {
+    &quot;id&quot;: 9,
+    &quot;name&quot;: &quot;Tecniche speciali (Radiochirurgia&#47;TBI&#47;IORT)&quot;,
+    &quot;description&quot;:
+        &quot;Lo specializzando dovrà aver eseguito personalmente l&#39;espletamento dei compiti affidatigli su pazienti trattati con tecniche speciali (total body irradiation, radiochirurgia, radioterapia intraoperatoria, etc.) (The specialist must have personally performed the assigned tasks on patients treated with special techniques (total body irradiation, radiosurgery, intraoperative radiotherapy, etc.))&quot;,
+    &quot;min_required_amount&quot;: 15,
+    &quot;required_departments&quot;: [&quot;Tecniche Speciali&#47;Radiochirurgia&quot;],
+  },
+  {
+    &quot;id&quot;: 10,
+    &quot;name&quot;: &quot;Percorso assistenziale globale del paziente&quot;,
+    &quot;description&quot;:
+        &quot;Durante il corso lo specializzando deve aver seguito pazienti (ricovero, brachiterapia, terapia con fasci esterni, ambulatorio e follow-up). (During the course, the specialist must have followed patients (inpatient, brachytherapy, external beam therapy, outpatient clinic, and follow-up).)&quot;,
+    &quot;min_required_amount&quot;: 350,
+    &quot;required_departments&quot;: [&quot;Ambulatorio&#47;Follow-up&quot;],
+  },
+
+  &#47;&#47; Attività non quantificate con N, ma obbligatorie per l&#39;addestramento (Durata e Competenze)
+  {
+    &quot;id&quot;: 11, &quot;name&quot;: &quot;Tirocinio clinico in reparto e DH&quot;,
+    &quot;description&quot;:
+        &quot;Frequenza delle sezioni del reparto di radioterapia, collaborando all&#39;attività clinica di radioterapia e assumendo crescenti responsabilità fino alla completa autonomia, per **mesi 18** del reparto di degenza in regime ordinario e di day hospital. (Attendance of radiotherapy ward sections, collaborating in clinical radiotherapy activity, assuming increasing responsibility up to complete autonomy, for **18 months** in the ordinary inpatient ward and day hospital.)&quot;,
+    &quot;min_required_amount&quot;: 0, &#47;&#47; Requisito basato sulla durata (18 mesi).
+    &quot;required_departments&quot;: [&quot;Degenza Ordinaria&quot;, &quot;Day Hospital&quot;],
+  },
+  {
+    &quot;id&quot;: 12, &quot;name&quot;: &quot;Tirocinio specialistico in brachiterapia&quot;,
+    &quot;description&quot;:
+        &quot;Frequenza delle sezioni del reparto di radioterapia per **mesi 2** della sezione (reparto) di brachiterapia. (Attendance of radiotherapy ward sections for **2 months** in the brachytherapy section.)&quot;,
+    &quot;min_required_amount&quot;: 0, &#47;&#47; Requisito basato sulla durata (2 mesi).
+    &quot;required_departments&quot;: [&quot;Brachiterapia&quot;],
+  },
+  {
+    &quot;id&quot;: 13, &quot;name&quot;: &quot;Tirocinio in dosimetria e fasci esterni&quot;,
+    &quot;description&quot;:
+        &quot;Frequenza delle sezioni del reparto di radioterapia per **mesi 28** dei reparti di radioterapia con fasci esterni, dosimetria e piani di trattamento e ambulatorio. (Attendance of radiotherapy ward sections for **28 months** in external beam radiotherapy, dosimetry, treatment planning, and outpatient clinic wards.)&quot;,
+    &quot;min_required_amount&quot;: 0, &#47;&#47; Requisito basato sulla durata (28 mesi).
+    &quot;required_departments&quot;: [
+      &quot;Radioterapia Fasci Esterni&quot;,
+      &quot;Dosimetria&quot;,
+      &quot;Piani di Trattamento&quot;,
+    ],
+  },
+  {
+    &quot;id&quot;: 14,
+    &quot;name&quot;: &quot;Preparazione ed esecuzione del trattamento&quot;,
+    &quot;description&quot;:
+        &quot;Partecipare attivamente a tutte le fasi di preparazione e di esecuzione di un trattamento radioterapico con fasci esterni (inclusi: acceleratori lineari, simulatore universale&#47;TC simulatore, sezioni di TC, RM, PET e SPECT, officina meccanica per schermature sagomate, utilizzo di TPS, laboratorio di dosimetria). (Actively participate in all phases of preparation and execution of an external beam radiotherapy treatment (including Linacs, simulators, imaging, shielding, TPS, dosimetry lab).)&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [
+      &quot;Tutte le Sezioni Tecniche (Dosimetria, Trattamento, Simulazione)&quot;,
+    ],
+  },
+  {
+    &quot;id&quot;: 15,
+    &quot;name&quot;: &quot;Tecniche conformazionali e IMRT&quot;,
+    &quot;description&quot;:
+        &quot;Aver acquisito esperienza delle tecniche di trattamento conformazionale e con radioterapia ad intensità modulata (IMRT) e dei sistemi per la loro verifica. (Having acquired experience with conformal treatment techniques and Intensity-Modulated Radiation Therapy (IMRT) and their verification systems.)&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;IMRT&#47;Verifica Sistemi&quot;],
+  },
+  {
+    &quot;id&quot;: 16,
+    &quot;name&quot;: &quot;Sperimentazioni cliniche controllate&quot;,
+    &quot;description&quot;:
+        &quot;Aver partecipato personalmente alla conduzione di sperimentazioni cliniche controllate. (Having personally participated in the conduct of controlled clinical trials.)&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;Ricerca Clinica&quot;],
+  },
+];</code></pre>
+</section>
+
+
+
+  </div> <!-- /.main-content -->
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+    <li><a href="../index.html">residency_portfolio</a></li>
+    <li><a href="../residency_portfolio/">residency_portfolio</a></li>
+    <li class="self-crumb">kOfficialRadioterapiaActivities constant</li>
+</ol>
+
+    <h5>residency_portfolio library</h5>
+    <div id="dartdoc-sidebar-left-content"></div>
+  </div><!--/.sidebar-offcanvas-left-->
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+</main>
+<footer>
+  <span class="no-break">
+    residency_portfolio
+      0.1.0+1
+  </span>
+  
+</footer>
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/docs.dart.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the kOfficialAnatomiaPatologicaActivities constant from the residency_portfolio library, for the Dart programming language.">
+  <title>kOfficialAnatomiaPatologicaActivities constant - residency_portfolio library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+  
+</head>
+
+<body data-base-href="../" data-using-base-href="false" class="light-theme">
+<div id="overlay-under-drawer"></div>
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">residency_portfolio</a></li>
+    <li><a href="../residency_portfolio/">residency_portfolio.dart</a></li>
+    <li class="self-crumb">kOfficialAnatomiaPatologicaActivities constant</li>
+  </ol>
+  <div class="self-name">kOfficialAnatomiaPatologicaActivities</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <button class="toggle" id="theme-button" title="Toggle between light and dark mode" aria-label="Light and dark mode toggle">
+    <span id="dark-theme-button" class="material-symbols-outlined" aria-hidden="true">
+      dark_mode
+    </span>
+    <span id="light-theme-button" class="material-symbols-outlined" aria-hidden="true">
+      light_mode
+    </span>
+  </button>
+</header>
+<main>
+  <div
+      id="dartdoc-main-content"
+      class="main-content"
+      data-above-sidebar="residency_portfolio&#47;residency_portfolio-library-sidebar.html"
+      data-below-sidebar="">
+      <div>
+<h1><span class="kind-top-level-property">kOfficialAnatomiaPatologicaActivities</span> top-level constant 
+ 
+</h1></div>
+
+        <section class="multi-line-signature">
+          
+          <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span>&gt;</span>
+          const <span class="name ">kOfficialAnatomiaPatologicaActivities</span>
+          
+
+        </section>
+        
+
+        
+<section class="summary source-code" id="source">
+  <h2><span>Implementation</span></h2>
+  <pre class="language-dart"><code class="language-dart">const List&lt;Map&lt;String, dynamic&gt;&gt; kOfficialAnatomiaPatologicaActivities = [
+  &#47;&#47; Attività quantificate con un numero minimo (N)
+  {
+    &quot;id&quot;: 1,
+    &quot;name&quot;: &quot;Riscontri diagnostici necroscopici e studio istopatologico&quot;,
+    &quot;description&quot;:
+        &quot;Aver effettuato (e certificato) riscontri diagnostici necroscopici, ivi compreso il relativo studio istopatologico (Having performed (and certified) necroscopic diagnostic findings, including the related histopathological study)&quot;,
+    &quot;min_required_amount&quot;: 40,
+    &quot;required_departments&quot;: [&quot;Sala Settoria&quot;],
+  },
+  {
+    &quot;id&quot;: 2,
+    &quot;name&quot;: &quot;Descrizione macroscopica e campionamento di pezzi operatori&quot;,
+    &quot;description&quot;:
+        &quot;Aver effettuato (e certificato) la descrizione macroscopica ed il campionamento di pezzi operatori (Having performed (and certified) the macroscopic description and sampling of surgical specimens)&quot;,
+    &quot;min_required_amount&quot;: 1200,
+    &quot;required_departments&quot;: [&quot;Sala Macroscopia&quot;],
+  },
+  {
+    &quot;id&quot;: 3,
+    &quot;name&quot;:
+        &quot;Diagnostica istopatologica (microscopia, immunoistochimica e biologia molecolare)&quot;,
+    &quot;description&quot;:
+        &quot;Aver effettuato (e certificato) la descrizione microscopica e la diagnosi istopatologica, con l&#39;eventuale corredo di indagini istochimiche, immunoistochimiche, ultrastrutturali e di biologia molecolare, di casi (Having performed (and certified) the microscopic description and histopathological diagnosis, with the possible complement of histochemical, immunohistochemical, ultrastructural, and molecular biology investigations, of cases)&quot;,
+    &quot;min_required_amount&quot;: 4000,
+    &quot;required_departments&quot;: [&quot;Microscopia Diagnostica&quot;, &quot;Laboratorio Speciale&quot;],
+  },
+  {
+    &quot;id&quot;: 4,
+    &quot;name&quot;: &quot;Diagnostica citopatologica e citologia agoaspirativa (FNAC)&quot;,
+    &quot;description&quot;:
+        &quot;Aver effettuato (e certificato) la descrizione microscopica e la diagnosi citopatologica di casi, inclusi quelli di citologia aspirativa con ago sottile (Having performed (and certified) the microscopic description and cytopathological diagnosis of cases, including fine needle aspiration cytology cases)&quot;,
+    &quot;min_required_amount&quot;: 1600,
+    &quot;required_departments&quot;: [&quot;Laboratorio Citopatologia&quot;],
+  },
+  {
+    &quot;id&quot;: 5,
+    &quot;name&quot;: &quot;Diagnostica intraoperatoria (esami estemporanei)&quot;,
+    &quot;description&quot;:
+        &quot;Aver effettuato (e certificato) la partecipazione all’allestimento e refertazione di casi di diagnosi intraoperatoria (Having performed (and certified) the participation in the preparation and reporting of intraoperative diagnosis cases)&quot;,
+    &quot;min_required_amount&quot;: 200,
+    &quot;required_departments&quot;: [&quot;Diagnostica Intraoperatoria (Estemporanea)&quot;],
+  },
+  {
+    &quot;id&quot;: 6,
+    &quot;name&quot;: &quot;Diagnostica molecolare su lesioni tessutali&quot;,
+    &quot;description&quot;:
+        &quot;Aver effettuato (e certificato) la partecipazione all’allestimento e refertazione di casi di diagnosi molecolari su lesioni tessutali (Having performed (and certified) the participation in the preparation and reporting of molecular diagnosis cases on tissue lesions)&quot;,
+    &quot;min_required_amount&quot;: 50,
+    &quot;required_departments&quot;: [&quot;Laboratorio Biologia Molecolare&quot;],
+  },
+
+  &#47;&#47; Attività non quantificate con N, ma obbligatorie per l&#39;addestramento (Conoscenze e Competenze)
+  {
+    &quot;id&quot;: 7,
+    &quot;name&quot;:
+        &quot;Correlazione clinico-morfologica e meccanismi dei processi morbosi&quot;,
+    &quot;description&quot;:
+        &quot;Possedere una conoscenza approfondita dei segni, sintomi e meccanismi dei processi morbosi, nonché della correlazione tra quadri clinici e morfologici. Conoscere il background scientifico della patologia in termini di meccanismi della malattia, criteri diagnostici e significato clinico (Possess in-depth knowledge of the signs, symptoms, and mechanisms of morbid processes, as well as the correlation between clinical and morphological pictures. Know the scientific background of pathology in terms of disease mechanisms, diagnostic criteria, and clinical significance)&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [],
+  },
+  {
+    &quot;id&quot;: 8,
+    &quot;name&quot;: &quot;Documentazione macroscopica e iconografica dei campioni&quot;,
+    &quot;description&quot;:
+        &quot;Essere in grado di effettuare descrizioni macroscopiche dei campioni, documentando adeguatamente gli elementi diagnostici essenziali, ed utilizzando ove necessarie, tecniche di documentazione iconografica (Be able to perform macroscopic descriptions of samples, adequately documenting essential diagnostic elements, and using iconographic documentation techniques where necessary)&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;Sala Macroscopia&quot;],
+  },
+  {
+    &quot;id&quot;: 9,
+    &quot;name&quot;: &quot;Campionatura di pezzi chirurgici secondo linee guida&quot;,
+    &quot;description&quot;:
+        &quot;Saper eseguire la campionatura dei pezzi chirurgici per l’esame istologico seguendo le linee guida riconosciute (Know how to sample surgical specimens for histological examination following recognized guidelines)&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;Sala Macroscopia&quot;],
+  },
+  {
+    &quot;id&quot;: 10,
+    &quot;name&quot;: &quot;Integrazione clinico-patologica nell&#39;esame dei preparati&quot;,
+    &quot;description&quot;:
+        &quot;Esaminare i preparati istologici e citologici con un approccio logico e coerente, prendendo in considerazione le notizie cliniche ed i quesiti specifici posti dal medico richiedente (Examine histological and cytological preparations with a logical and coherent approach, considering clinical information and specific questions posed by the requesting physician)&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;Microscopia Diagnostica&quot;],
+  },
+  {
+    &quot;id&quot;: 11,
+    &quot;name&quot;: &quot;Redazione di referti istocitopatologici chiari e completi&quot;,
+    &quot;description&quot;:
+        &quot;Saper descrivere i quadri patologici in modo conciso e dettagliato, focalizzandosi sulle osservazioni finalizzate alla formulazione di un referto completo, chiaro e comprensibile (Know how to describe pathological pictures concisely and detailedly, focusing on observations aimed at formulating a complete, clear, and understandable report)&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;Refertazione&quot;],
+  },
+  {
+    &quot;id&quot;: 12,
+    &quot;name&quot;: &quot;Patologia digitale e virtual imaging&quot;,
+    &quot;description&quot;:
+        &quot;Saper utilizzare le metodiche di digitalizzazione dei preparati istologici, ed essere consapevole delle applicazioni della virtual imaging nel campo delle consulenze diagnostiche esterne ed in ambito didattico (Know how to use methods for digitizing histological preparations, and be aware of the applications of virtual imaging in external diagnostic consultations and teaching)&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;Patologia Digitale&#47;Virtual Imaging&quot;],
+  },
+  {
+    &quot;id&quot;: 13,
+    &quot;name&quot;:
+        &quot;Gestione e interpretazione di indagini supplementari (istochimica e biomolecolare)&quot;,
+    &quot;description&quot;:
+        &quot;Essere in grado di richiedere e di interpretare le appropriate indagini supplementari (colorazioni istochimiche, immunoistochimiche, indagini biomolecolari) qualora siano necessarie per la formulazione del referto (Be able to request and interpret appropriate supplementary investigations (histochemical stains, immunohistochemical stains, biomolecular investigations) when necessary for report formulation)&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;Laboratorio Speciale&quot;],
+  },
+  {
+    &quot;id&quot;: 14,
+    &quot;name&quot;: &quot;Regolamentazione giuridica della medicina necroscopica&quot;,
+    &quot;description&quot;:
+        &quot;Conoscere ed applicare la regolamentazione giuridica della medicina necroscopica (Know and apply the legal regulation of necroscopic medicine)&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;Medicina Legale&quot;],
+  },
+  {
+    &quot;id&quot;: 15,
+    &quot;name&quot;: &quot;Esecuzione autonoma di necroscopia e formulazione epicrisi&quot;,
+    &quot;description&quot;:
+        &quot;Essere in grado di eseguire in maniera autonoma un riscontro diagnostico necroscopico completo e di formulare una corretta epicrisi (Be able to autonomously perform a complete necroscopic diagnostic finding and formulate a correct epicrisis)&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;Sala Settoria&quot;],
+  },
+  {
+    &quot;id&quot;: 16,
+    &quot;name&quot;: &quot;Aspetti medico-legali e protezione dati sensibili&quot;,
+    &quot;description&quot;:
+        &quot;Essere consapevole delle implicazioni medico-legali della custodia dei campioni e dei referti, nonché della protezione dei dati sensibili (Be aware of the medico-legal implications of sample and report custody, as well as the protection of sensitive data)&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;Archivio&#47;Segreteria&quot;],
+  },
+  {
+    &quot;id&quot;: 17,
+    &quot;name&quot;: &quot;Turni di diagnostica supervisionata nella rete formativa&quot;,
+    &quot;description&quot;:
+        &quot;L’attività professionalizzante prevede turni di diagnostica nel contesto della rete formativa della Scuola, con la supervisione dei docenti della disciplina. (Professionalizing activity involves diagnostic shifts within the School&#39;s training network, with the supervision of discipline professors.)&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [],
+  },
+  {
+    &quot;id&quot;: 18,
+    &quot;name&quot;: &quot;Apprendimento pratico di diagnostica autoptica in sala settoria&quot;,
+    &quot;description&quot;:
+        &quot;L’apprendimento della diagnostica autoptica prevede la frequentazione della sala settoria e l’esecuzione di riscontri diagnostici autoptici con la supervisione del docente (Learning autoptic diagnostics involves attending the autopsy room and performing autoptic diagnostic findings under the professor&#39;s supervision)&quot;,
+    &quot;min_required_amount&quot;: 0,
+    &quot;required_departments&quot;: [&quot;Sala Settoria&quot;],
+  },
+];</code></pre>
+</section>
+
+
+
+  </div> <!-- /.main-content -->
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+    <li><a href="../index.html">residency_portfolio</a></li>
+    <li><a href="../residency_portfolio/">residency_portfolio</a></li>
+    <li class="self-crumb">kOfficialAnatomiaPatologicaActivities constant</li>
+</ol>
+
+    <h5>residency_portfolio library</h5>
+    <div id="dartdoc-sidebar-left-content"></div>
+  </div><!--/.sidebar-offcanvas-left-->
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+</main>
+<footer>
+  <span class="no-break">
+    residency_portfolio
+      0.1.0+1
+  </span>
+  
+</footer>
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/docs.dart.js"></script>
+
+</body>
+</html>
+
