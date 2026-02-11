@@ -13,7 +13,7 @@ format:
 
 
 ::: {.hero-section}
-![](../assets/icon/foreground-icon.png){width="160px"}
+![](../assets/icon/logo.png){width="160px"}
 
 # Visual Documentation
 A complete walkthrough of the R Portfolio interface.
