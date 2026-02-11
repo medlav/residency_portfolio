@@ -5,6 +5,8 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Android-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows-yellow)
+![Platform](https://img.shields.io/badge/Platform-Linux-red)
+![Platform](https://img.shields.io/badge/Platform-macOS-red)
 ![Platform](https://img.shields.io/badge/Platform-Web-yellow)
 ![Platform](https://img.shields.io/badge/Platform-iOS-yellow)
 
