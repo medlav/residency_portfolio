@@ -4,7 +4,7 @@
 ![Dart](https://img.shields.io/badge/Dart-3.x-blue?logo=dart)
 ![Platform](https://img.shields.io/badge/Platform-Android-green)
 ![License](https://img.shields.io/badge/License-BSD%203--Clause-blue)
-![Status](https://img.shields.io/badge/Development-Pre--Alpha-red)
+![Status](https://img.shields.io/badge/Development-Alpha-red)
 
 A personal, open-source Flutter application developed to manage and document medical residency portfolio activities, with specific reference to **Italian Residency Schools and their normative and training requirements**.
 
