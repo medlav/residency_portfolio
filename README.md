@@ -41,6 +41,7 @@ This application aims to provide a simple, structured, and locally stored system
 It is not affiliated with any university, residency school, or governmental institution.
 
 <br clear="right"/>
+
 ---
 
 ## Normative Context (Italy)
