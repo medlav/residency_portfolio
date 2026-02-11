@@ -13,6 +13,10 @@
 ![License](https://img.shields.io/badge/License-BSD%203--Clause-blue)
 ![Status](https://img.shields.io/badge/Development-Alpha-red)
 
+#### Download v0.1.0 Last Release
+
+[![](https://img.shields.io/badge/Download-APK-green?style=for-the-badge&logo=download&logoColor=white)](https://github.com/medlav/residency_portfolio/releases/tag/v0.1.0)
+
 Current Version: `v0.1.0` [View API Docs](https://medlav.github.io/residency_portfolio/api/index.html) and [Visual Docs](https://medlav.github.io/residency_portfolio/)
 
 A personal, open-source Flutter application developed to manage and document medical residency portfolio activities, with specific reference to **Italian Residency Schools and their normative and training requirements**.
