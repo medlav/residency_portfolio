@@ -1,17 +1,33 @@
-/* General Page Styling */
 body {
     background-color: #0f172a;
-    /* Deep slate dark */
     color: #f8fafc;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    margin: 10;
-    padding: 10;
+    margin: 10px;
+    padding: 20px 40px;
     align-items: center;
+}
+
+p,
+li {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .hero-section {
     text-align: center;
     padding: 20px 20px 40px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:active {
+    color: #fef3c7;
+    text-shadow: 0 0 8px rgba(254, 243, 199, 0.5);
 }
 
 h1 {
@@ -26,10 +42,9 @@ h1 {
 h2 {
     color: white;
     margin-top: 60px;
-    padding: 0 20px;
+    padding: 0 20px 0 30px;
 }
 
-/* The Modern Scroll Container */
 .app-viewport {
     width: 100%;
     padding: 40px 0;
@@ -42,94 +57,69 @@ h2 {
     overflow-x: auto;
     gap: 30px;
     padding: 20px 50px;
-    /* Smooth Kinetic Scrolling */
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-}
-
-/* Hide Scrollbars */
-.horizontal-scroll-track::-webkit-scrollbar {
-    display: none;
-}
-
-.horizontal-scroll-track {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
 
+.horizontal-scroll-track::-webkit-scrollbar {
+    display: none;
+}
 
-/* Interaction Effects */
 .app-shot:hover {
     transform: scale(1.05) translateY(-15px);
     filter: brightness(1.1);
-    border-color: #38bdf8;
-    /* Highlight color */
-    box-shadow: 0 35px 60px -15px rgba(56, 189, 248, 0.3);
+    border-color: #00005e;
+    box-shadow: 0 35px 60px -15px rgba(1, 12, 107, 0.3);
+    cursor: pointer;
 }
 
-/* Features section text layout */
 .quarto-title-block,
 #quarto-content {
     max-width: 900px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 30px;
 }
-
 
 .marquee-container {
     width: 100%;
     overflow: hidden;
     padding: 60px 0;
     position: relative;
-    background: rgba(255, 255, 255, 0.02);
 }
 
 .marquee-content {
     display: flex;
     width: max-content;
-    /* Vital: lets the track be as wide as all images combined */
     gap: 30px;
     animation: scroll-loop 40s linear infinite;
-    /* Adjust '40s' to change speed */
 }
 
-/* The "Gun Barrel" / Film Strip Look */
 .app-shot {
     width: 260px;
     height: auto;
     border-radius: 18px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 2px solid #ffffff;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
-/* Pause on Hover so users can actually look at a screen */
 .marquee-container:hover .marquee-content {
     animation-play-state: paused;
 }
 
-.app-shot:hover {
-    transform: scale(1.1);
-    border-color: #38bdf8;
-    cursor: pointer;
-}
-
-/* The Magic Animation */
 @keyframes scroll-loop {
     0% {
         transform: translateX(0);
     }
 
     100% {
-        /* We move exactly half the width of the total content */
         transform: translateX(-50%);
     }
 }
 
-
-
-/* Sets the background and forces all internal text to light white */
 pre.code-with-copy,
 .sourceCode,
 .sourceCode span,
@@ -138,8 +128,8 @@ code {
     color: #01040a !important;
 }
 
-/* Optional: Adds consistent rounding and padding to match your screenshots */
 pre.code-with-copy {
     padding: 1rem;
     border-radius: 8px;
+    margin-left: 30px;
 }

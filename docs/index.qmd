@@ -10,7 +10,7 @@ format:
 ---
 
 
-::: {.hero-section}
+:::: {.hero-section}
 ![](../assets/icon/logo.png){width="160px"}
 
 # Visual Documentation
@@ -19,7 +19,7 @@ A complete walkthrough of the R Portfolio interface.
 **API Reference and docs:**
 
 [View API Docs](./api/index.html) | [GitHub Repository](https://github.com/medlav/residency_portfolio)
-:::
+::::
 
 ::: {.marquee-container}
 ::: {.marquee-content}
@@ -55,8 +55,8 @@ A complete walkthrough of the R Portfolio interface.
 ![](screenshots/import_db_confirm.png){.app-shot}
 ![](screenshots/info_dark.png){.app-shot}
 :::
+:::
 
----
 
 ## R Portfolio README.md
 
@@ -75,8 +75,11 @@ A complete walkthrough of the R Portfolio interface.
 ![License](https://img.shields.io/badge/License-BSD%203--Clause-blue)
 ![Status](https://img.shields.io/badge/Development-Alpha-red)
 
-Current Version: `v0.1.0`
+### Download v0.1.0 Last Release
 
+[![](https://img.shields.io/badge/Download-APK-green?style=for-the-badge&logo=download&logoColor=white)](https://github.com/medlav/residency_portfolio/releases/tag/v0.1.0)
+
+Current Version: *v0.1.0* [View API Docs](https://medlav.github.io/residency_portfolio/api/index.html) and [Visual Docs](https://medlav.github.io/residency_portfolio/)
 
 A personal, open-source Flutter application developed to manage and document medical residency portfolio activities, with specific reference to **Italian Residency Schools and their normative and training requirements**.
 
@@ -85,6 +88,8 @@ This project is developed and maintained by **medlav** and will be available in 
 This is not production-grade software and should not be used as an official reporting system without independent verification.
 
 ---
+
+
 
 ## Context and Scope
 
@@ -100,6 +105,8 @@ Italian medical residency programs require structured documentation of:
 This application aims to provide a simple, structured, and locally stored system for recording such activities.
 
 It is not affiliated with any university, residency school, or governmental institution.
+
+
 
 ---
 
@@ -119,11 +126,14 @@ This application is designed to align with Italian postgraduate medical training
 
 ---
 
+
+
 ## Project Status
 
-* Development Stage: Pre-Alpha / Early Alpha
-* Platform: Android (Flutter)
-* Stability: Experimental
+
+* **Development Stage:** Pre-Alpha / Early Alpha
+* **Platform:** Android (Flutter)
+* **Stability:** Experimental
 
 Expect:
 
@@ -134,33 +144,41 @@ Expect:
 
 This is a hobby project developed in spare time.
 
+
 ---
 
-## Core Functionality
 
 ### Portfolio Entry Management
+
+
 
 * Create, edit, and delete portfolio entries
 * Define custom categories aligned with specialty requirements
 * Flexible quantitative tracking (counts, hours, credits)
 * Structured metadata fields (institution, departments, notes)
 
+
+
 ### Temporal Tracking
+
 
 * Support for past, ongoing, and planned activities
 * Start and optional end dates
 * ISO 8601 date format handling
 
+
+
+
 ### Local-First Design
+
 
 * SQLite database (`sqflite`) for structured data
 * SharedPreferences for profile and configuration
-* No cloud services
-* No analytics
-* No tracking
-* No advertising
+* No cloud services | No analytics | No tracking
 
 All data remains stored locally on the user’s device.
+
+
 
 ---
 
@@ -185,11 +203,14 @@ There is currently no synchronization, encryption layer beyond platform defaults
 
 ## Installation
 
+
+You can also download the apk binary for easy installation [Here](https://github.com/medlav/residency_portfolio/releases/tag/v0.1.0)
+
 Clone the public repository:
 
 ```bash
-git clone https://github.com/medlav/residency-portfolio-manager.git
-cd residency-portfolio-manager
+git clone https://github.com/medlav/residency_portfolio.git
+cd residency_portfolio
 ```
 
 Install dependencies:

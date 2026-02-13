@@ -150,8 +150,8 @@ You can also download the apk binary for easy installation [Here](https://github
 Clone the public repository:
 
 ```bash
-git clone https://github.com/medlav/residency-portfolio.git
-cd residency-portfolio
+git clone https://github.com/medlav/residency_portfolio.git
+cd residency_portfolio
 ```
 
 Install dependencies:
