@@ -14,6 +14,7 @@ format:
 ![](../assets/icon/logo.png){width="160px"}
 
 # Visual Documentation
+
 A complete walkthrough of the R Portfolio interface.
 
 **API Reference and docs:**
